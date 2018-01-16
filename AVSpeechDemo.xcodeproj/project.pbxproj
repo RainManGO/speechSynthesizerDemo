@@ -13,6 +13,7 @@
 		18B2DF9E1FD7B12E000A17ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DF9D1FD7B12E000A17ED /* Assets.xcassets */; };
 		18B2DFA11FD7B12E000A17ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B2DF9F1FD7B12E000A17ED /* LaunchScreen.storyboard */; };
 		18B2DFA41FD7B12E000A17ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2DFA31FD7B12E000A17ED /* main.m */; };
+		18B2DFAC1FD7B480000A17ED /* ZYSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2DFAB1FD7B480000A17ED /* ZYSpeechController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18B2DFA01FD7B12E000A17ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B2DFA21FD7B12E000A17ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B2DFA31FD7B12E000A17ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B2DFAA1FD7B480000A17ED /* ZYSpeechController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYSpeechController.h; sourceTree = "<group>"; };
+		18B2DFAB1FD7B480000A17ED /* ZYSpeechController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSpeechController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				18B2DF951FD7B12C000A17ED /* AppDelegate.m */,
 				18B2DF971FD7B12C000A17ED /* ViewController.h */,
 				18B2DF981FD7B12C000A17ED /* ViewController.m */,
+				18B2DFAA1FD7B480000A17ED /* ZYSpeechController.h */,
+				18B2DFAB1FD7B480000A17ED /* ZYSpeechController.m */,
 				18B2DF9A1FD7B12D000A17ED /* Main.storyboard */,
 				18B2DF9D1FD7B12E000A17ED /* Assets.xcassets */,
 				18B2DF9F1FD7B12E000A17ED /* LaunchScreen.storyboard */,
@@ -145,6 +150,7 @@
 			files = (
 				18B2DF991FD7B12C000A17ED /* ViewController.m in Sources */,
 				18B2DFA41FD7B12E000A17ED /* main.m in Sources */,
+				18B2DFAC1FD7B480000A17ED /* ZYSpeechController.m in Sources */,
 				18B2DF961FD7B12C000A17ED /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
